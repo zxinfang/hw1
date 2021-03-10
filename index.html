@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="css/css.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+
+<body>
+    <div class="bg">
+        <form action="form_action.php" method="get">
+            <div class="type">
+                <label for="myname">名字:</label>
+                <input type="text" id="myname" name="myname">
+            </div>
+            <div class="type">
+                <label for="birth">生日:</label>
+                <input type="date" id="birth" name="birth">
+            </div>
+            <div class="type">
+                <label for="email">信箱:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="type">
+                <label for="password">密碼:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="type">
+                <label for="IQ">智商:</label>
+                <input type="number" id="IQ" name="IQ" min="80" max="200">
+            </div>
+            <div class="type">
+                <label for="file">履歷:</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div class="type">
+                <label for="checkbox">秒懂進度:</label><br>
+                <input type="checkbox" id="HTML" name="HTML">HTML
+                <input type="checkbox" id="CSS" name="CSS">CSS
+                <input type="checkbox" id="Jquery" name="Jquery">Jquery
+                <input type="checkbox" id="page" name="page">版面切割
+                <input type="checkbox" id="Bootstrap" name="Bootstrap">Bootstrap
+                <input type="checkbox" id="Bootstrap+RWD" name="Bootstrap+RWD">Bootstrap+RWD
+            </div>
+            <div class="type">
+                <label>作業是否完成:</label>
+                <input type="radio" id="yes" name="done">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="done">
+                <label for="no">No</label>
+            </div>
+
+            <div class="type">
+                <label>作業完成時間:</label>
+                <input type="time" id="done_time" name="domne_time">
+            </div>
+            <div class="type">
+                <label>喜歡這次的作業嗎:</label>
+                <input type="range" id="like" name="like">
+            </div>
+            <div class="type">
+                <label for="propose">對考試題目有哪些建議:</label><br>
+                <textarea rows="3" cols="40" id="propose"></textarea>
+            </div>
+            <div class="type">
+                <input class="btn" type="reset" value="清除">
+                <input class="btn" type="submit" value="送出">
+            </div>
+            <div class="type">
+                <input type="image" id="image" src="img/01.png" alt="#">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
