@@ -1,0 +1,38 @@
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bg {
+        background-color: linear-gradient(to bottom, white, #dfe3ee);
+        border: solid 1px black;
+        position: absolute;
+        width: 400px;
+        height: 550px;
+        padding: 20px;
+        margin-top: -275px;
+        margin-left: -200px;
+        top: 50%;
+        left: 50%;
+    }
+    
+    h1,
+    h3 {
+        margin: 8px 0;
+    }
+    
+    a {
+        color: steelblue;
+    }
+    
+    .textbox {
+        margin: 10px;
+    }
+    
+    input {
+        border-radius: 3px;
+        border: 1px solid #888;
+    }

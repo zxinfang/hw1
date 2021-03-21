@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/css-2.css" rel="stylesheet">
     <title>1-2</title>
-    <style>
-     
-    </style>    
 </head>
- 
+
 <body>
-    
+    <div class="bg">
+        <header>
+            <h1>註冊</h1>
+            <h3>永遠免費！</h3>
+        </header>
+        <div class="all">
+            <div class="control">
+                <div class="textbox">
+                    <input type="text" placeholder="姓氏" name="first_name" id="first">
+                    <input type="text" placeholder="名字" name="name" id="name">
+                </div>
+                <div class="textbox">
+                    <input type="text" placeholder="電子郵件或手機號碼" name="mail_num">
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="設定密碼" name="password">
+                </div>
+            </div>
+        </div>
+        <div class="birth">
+            <p>生日</p>
+            <select>
+                <option value="1998">1998</option>
+            </select>
+            <select>
+                <option value="12">12</option>
+            </select>
+            <select>
+                <option value="12">12</option>
+            </select>
+            <a href="">為什麼需要提供出生日期的資料？</a>
+        </div>
+
+        <div class="sex">
+            <input type="radio" id="female" name="sex">
+            <label for="female">女性</label>
+            <input type="radio" id="male" name="sex">
+            <label for="male">男性</label>
+        </div>
+        <aside>
+            點擊註冊即表示你同意我們的<a href="">使用條款</a>、<a href="">資料政策</a>和<a href="">Cookie政策</a>，你可能會收到我們的簡訊通知，而且可以隨時選擇停止接收。
+        </aside>
+        <button type="submit">註冊</button>
+    </div>
+    </div>
+
 </body>
+
 </html>
